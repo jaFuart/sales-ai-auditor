@@ -1,0 +1,28 @@
+name: Check PULSE
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run business logic and integration tests
+        run: python -m unittest discover -s tests -v
+      - name: Check Python syntax
+        run: python -m compileall -q auditor examples
+      - name: Generate reproducible static demo
+        run: python -m auditor build-demo
+      - name: Check standalone integration length
+        run: python -c "from pathlib import Path; assert len(Path('examples/amocrm_problem_deals.py').read_text().splitlines()) <= 50"
+      - name: Check static entrypoint
+        run: test -f dist/index.html

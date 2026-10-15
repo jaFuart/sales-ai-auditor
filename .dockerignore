@@ -1,0 +1,9 @@
+.git
+.env
+.env.*
+runtime
+reports
+audio
+**/__pycache__
+**/*.pyc
+.openai

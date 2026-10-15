@@ -1,0 +1,2735 @@
+{
+  "meta": {
+    "as_of": "2026-10-14T18:00:00+03:00",
+    "period_days": 14,
+    "from": "2026-09-30T18:00:00+03:00",
+    "to": "2026-10-14T18:00:00+03:00",
+    "mode": "demo",
+    "analysis_mode": "demo_rules",
+    "warnings": [
+      "Демонстрационные данные и синтетические расшифровки. Аудио не использовано.",
+      "Реальный вызов модели не использован: анализ выполняют локальные правила.",
+      "Выигранная сумма — бюджеты успешно закрытых сделок, а не оплаченная выручка."
+    ],
+    "complete": true,
+    "period_semantics": "[from,to); pipeline and task checks are current account snapshot"
+  },
+  "managers": [
+    {
+      "id": 101,
+      "name": "Анна Волкова",
+      "initials": "АВ",
+      "color": "#b19af2"
+    },
+    {
+      "id": 102,
+      "name": "Михаил Соколов",
+      "initials": "МС",
+      "color": "#7fc9b3"
+    },
+    {
+      "id": 103,
+      "name": "Елена Миронова",
+      "initials": "ЕМ",
+      "color": "#e2ae77"
+    }
+  ],
+  "metrics": {
+    "new_leads": 17,
+    "won_count": 11,
+    "won_amount": 5920000,
+    "closed_count": 21,
+    "win_rate": 52.4,
+    "open_count": 40,
+    "no_task_count": 8,
+    "overdue_count": 16,
+    "calls_count": 11,
+    "followup_gap_count": 9
+  },
+  "pipeline": [
+    {
+      "id": "new",
+      "label": "Новая заявка",
+      "count": 8,
+      "amount": 4500000,
+      "color": "#89a2c8"
+    },
+    {
+      "id": "qualified",
+      "label": "Квалификация",
+      "count": 8,
+      "amount": 4190000,
+      "color": "#b19af2"
+    },
+    {
+      "id": "demo",
+      "label": "Демонстрация",
+      "count": 8,
+      "amount": 4170000,
+      "color": "#8dbbdb"
+    },
+    {
+      "id": "proposal",
+      "label": "Предложение",
+      "count": 8,
+      "amount": 3540000,
+      "color": "#e2ae77"
+    },
+    {
+      "id": "negotiation",
+      "label": "Переговоры",
+      "count": 8,
+      "amount": 3080000,
+      "color": "#7fc9b3"
+    }
+  ],
+  "series": [
+    {
+      "date": "2026-09-30",
+      "label": "30 сен",
+      "won_amount": 0,
+      "calls_count": 0,
+      "new_leads": 0
+    },
+    {
+      "date": "2026-10-01",
+      "label": "1 окт",
+      "won_amount": 330000,
+      "calls_count": 1,
+      "new_leads": 1
+    },
+    {
+      "date": "2026-10-02",
+      "label": "2 окт",
+      "won_amount": 610000,
+      "calls_count": 0,
+      "new_leads": 3
+    },
+    {
+      "date": "2026-10-03",
+      "label": "3 окт",
+      "won_amount": 620000,
+      "calls_count": 1,
+      "new_leads": 0
+    },
+    {
+      "date": "2026-10-04",
+      "label": "4 окт",
+      "won_amount": 1400000,
+      "calls_count": 1,
+      "new_leads": 5
+    },
+    {
+      "date": "2026-10-05",
+      "label": "5 окт",
+      "won_amount": 0,
+      "calls_count": 1,
+      "new_leads": 0
+    },
+    {
+      "date": "2026-10-06",
+      "label": "6 окт",
+      "won_amount": 1100000,
+      "calls_count": 1,
+      "new_leads": 0
+    },
+    {
+      "date": "2026-10-07",
+      "label": "7 окт",
+      "won_amount": 120000,
+      "calls_count": 0,
+      "new_leads": 1
+    },
+    {
+      "date": "2026-10-08",
+      "label": "8 окт",
+      "won_amount": 0,
+      "calls_count": 1,
+      "new_leads": 2
+    },
+    {
+      "date": "2026-10-09",
+      "label": "9 окт",
+      "won_amount": 0,
+      "calls_count": 1,
+      "new_leads": 1
+    },
+    {
+      "date": "2026-10-10",
+      "label": "10 окт",
+      "won_amount": 0,
+      "calls_count": 1,
+      "new_leads": 2
+    },
+    {
+      "date": "2026-10-11",
+      "label": "11 окт",
+      "won_amount": 830000,
+      "calls_count": 1,
+      "new_leads": 1
+    },
+    {
+      "date": "2026-10-12",
+      "label": "12 окт",
+      "won_amount": 0,
+      "calls_count": 0,
+      "new_leads": 1
+    },
+    {
+      "date": "2026-10-13",
+      "label": "13 окт",
+      "won_amount": 910000,
+      "calls_count": 1,
+      "new_leads": 0
+    },
+    {
+      "date": "2026-10-14",
+      "label": "14 окт",
+      "won_amount": 0,
+      "calls_count": 1,
+      "new_leads": 0
+    }
+  ],
+  "manager_stats": [
+    {
+      "id": 101,
+      "name": "Анна Волкова",
+      "won_count": 2,
+      "won_amount": 1400000,
+      "open_count": 13,
+      "no_task_count": 1,
+      "overdue_count": 5,
+      "calls_count": 3
+    },
+    {
+      "id": 102,
+      "name": "Михаил Соколов",
+      "won_count": 3,
+      "won_amount": 1110000,
+      "open_count": 14,
+      "no_task_count": 2,
+      "overdue_count": 7,
+      "calls_count": 2
+    },
+    {
+      "id": 103,
+      "name": "Елена Миронова",
+      "won_count": 6,
+      "won_amount": 3410000,
+      "open_count": 13,
+      "no_task_count": 5,
+      "overdue_count": 4,
+      "calls_count": 6
+    }
+  ],
+  "deals": [
+    {
+      "id": 1035,
+      "name": "Поддержка CRM",
+      "company": "Бюро 12",
+      "amount": 840000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 102,
+      "created_at": "2026-09-19T11:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-28T13:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3035,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2019
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "stale"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1015,
+      "name": "Автоматизация воронки",
+      "company": "Точка роста",
+      "amount": 800000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 103,
+      "created_at": "2026-10-07T15:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-14T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [
+        2009
+      ],
+      "crm_url": null,
+      "issues": [
+        "no_task",
+        "followup_gap"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1012,
+      "name": "Обучение команды",
+      "company": "Прайм",
+      "amount": 680000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 103,
+      "created_at": "2026-08-25T06:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-27T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3012,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2006
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "stale"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1001,
+      "name": "CRM для отдела продаж",
+      "company": "Орбита",
+      "amount": 640000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 101,
+      "created_at": "2026-07-12T18:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-06T18:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "no_task",
+        "stale"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1051,
+      "name": "Автоматизация воронки",
+      "company": "Платформа",
+      "amount": 430000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 103,
+      "created_at": "2026-08-17T10:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-07T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [
+        2025
+      ],
+      "crm_url": null,
+      "issues": [
+        "no_task",
+        "followup_gap"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1033,
+      "name": "Автоматизация воронки",
+      "company": "Гринлайн",
+      "amount": 410000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 103,
+      "created_at": "2026-10-04T12:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-08T15:00:00+03:00",
+      "tasks": [],
+      "call_ids": [
+        2017
+      ],
+      "crm_url": null,
+      "issues": [
+        "no_task",
+        "followup_gap"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1003,
+      "name": "Автоматизация воронки",
+      "company": "Атлас",
+      "amount": 400000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 103,
+      "created_at": "2026-08-19T08:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-09T14:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3003,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2002
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "followup_gap"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1021,
+      "name": "Автоматизация воронки",
+      "company": "Линия",
+      "amount": 320000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 103,
+      "created_at": "2026-10-04T13:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-07T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3021,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2010
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "followup_gap"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1034,
+      "name": "Аналитика продаж",
+      "company": "Лайтхаус",
+      "amount": 260000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 101,
+      "created_at": "2026-08-22T15:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-05T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3034,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2018
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "followup_gap"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1075,
+      "name": "Автоматизация воронки",
+      "company": "Контур",
+      "amount": 250000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 103,
+      "created_at": "2026-09-22T10:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-30T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3075,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "stale"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1044,
+      "name": "Интеграция телефонии",
+      "company": "Аура",
+      "amount": 170000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 102,
+      "created_at": "2026-08-29T06:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-28T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3044,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2023
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "stale"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1062,
+      "name": "Интеграция телефонии",
+      "company": "Модуль",
+      "amount": 170000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 102,
+      "created_at": "2026-09-07T14:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-25T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3062,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "overdue",
+        "stale"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1024,
+      "name": "Обучение команды",
+      "company": "Нова",
+      "amount": 840000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 103,
+      "created_at": "2026-09-14T13:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-10T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [
+        2013
+      ],
+      "crm_url": null,
+      "issues": [
+        "no_task"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1063,
+      "name": "Автоматизация воронки",
+      "company": "Спектр",
+      "amount": 820000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 103,
+      "created_at": "2026-09-18T15:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-27T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3063,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "stale"
+      ],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1074,
+      "name": "Интеграция телефонии",
+      "company": "Сфера",
+      "amount": 800000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 102,
+      "created_at": "2026-09-02T13:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-11T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "no_task"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1045,
+      "name": "Автоматизация воронки",
+      "company": "Маяк",
+      "amount": 790000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 103,
+      "created_at": "2026-09-13T17:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-11T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3045,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2024
+      ],
+      "crm_url": null,
+      "issues": [
+        "followup_gap"
+      ],
+      "recommendation": "Сверить обещание в звонке с задачами CRM"
+    },
+    {
+      "id": 1042,
+      "name": "Обучение команды",
+      "company": "Альта",
+      "amount": 700000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 103,
+      "created_at": "2026-09-14T11:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-10T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [
+        2021
+      ],
+      "crm_url": null,
+      "issues": [
+        "no_task"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1071,
+      "name": "Поддержка CRM",
+      "company": "Маяк",
+      "amount": 670000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 102,
+      "created_at": "2026-08-21T10:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-02T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3071,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1041,
+      "name": "Поддержка CRM",
+      "company": "Точка роста",
+      "amount": 660000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 102,
+      "created_at": "2026-09-20T16:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-25T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3041,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3141,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2020
+      ],
+      "crm_url": null,
+      "issues": [
+        "stale"
+      ],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1053,
+      "name": "Поддержка CRM",
+      "company": "Орбита",
+      "amount": 580000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 102,
+      "created_at": "2026-08-21T12:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-06T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3053,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-12T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2027
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1025,
+      "name": "CRM для отдела продаж",
+      "company": "Платформа",
+      "amount": 570000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 101,
+      "created_at": "2026-09-12T10:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-09T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3025,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2014
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1002,
+      "name": "Интеграция телефонии",
+      "company": "Север Трейд",
+      "amount": 480000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 102,
+      "created_at": "2026-09-02T06:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-14T15:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3002,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-11T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2001
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1004,
+      "name": "Аналитика продаж",
+      "company": "Меридиан",
+      "amount": 430000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 101,
+      "created_at": "2026-09-11T14:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-14T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3004,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2003
+      ],
+      "crm_url": null,
+      "issues": [
+        "followup_gap"
+      ],
+      "recommendation": "Сверить обещание в звонке с задачами CRM"
+    },
+    {
+      "id": 1011,
+      "name": "Поддержка CRM",
+      "company": "Спектр",
+      "amount": 410000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 102,
+      "created_at": "2026-09-19T18:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-11T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3011,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2005
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1043,
+      "name": "CRM для отдела продаж",
+      "company": "Ладога",
+      "amount": 320000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 101,
+      "created_at": "2026-09-09T10:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-05T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3043,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2022
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1022,
+      "name": "Аналитика продаж",
+      "company": "Сфера",
+      "amount": 250000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 101,
+      "created_at": "2026-08-31T06:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-07T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3022,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2011
+      ],
+      "crm_url": null,
+      "issues": [
+        "followup_gap"
+      ],
+      "recommendation": "Сверить обещание в звонке с задачами CRM"
+    },
+    {
+      "id": 1065,
+      "name": "Поддержка CRM",
+      "company": "Каскад",
+      "amount": 240000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 102,
+      "created_at": "2026-10-04T14:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-14T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "no_task"
+      ],
+      "recommendation": "Назначить следующий контакт и ответственного"
+    },
+    {
+      "id": 1005,
+      "name": "Поддержка CRM",
+      "company": "Неон",
+      "amount": 190000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 102,
+      "created_at": "2026-08-26T18:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-09-29T12:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3005,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3105,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2004
+      ],
+      "crm_url": null,
+      "issues": [
+        "stale"
+      ],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1052,
+      "name": "Аналитика продаж",
+      "company": "Оптима",
+      "amount": 180000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 101,
+      "created_at": "2026-09-26T14:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-07T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3052,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2026
+      ],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1061,
+      "name": "CRM для отдела продаж",
+      "company": "Бюро 12",
+      "amount": 100000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 101,
+      "created_at": "2026-09-20T11:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-03T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3061,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-13T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [
+        "overdue"
+      ],
+      "recommendation": "Проверить просроченную задачу и согласовать новый срок"
+    },
+    {
+      "id": 1059,
+      "name": "Поддержка CRM",
+      "company": "Гринлайн",
+      "amount": 840000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 102,
+      "created_at": "2026-10-11T12:00:00+03:00",
+      "closed_at": "2026-10-13T13:00:00+03:00",
+      "last_activity_at": "2026-10-13T13:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1018,
+      "name": "Обучение команды",
+      "company": "Аура",
+      "amount": 830000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-10-08T10:00:00+03:00",
+      "closed_at": "2026-10-11T11:00:00+03:00",
+      "last_activity_at": "2026-10-11T11:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1028,
+      "name": "Аналитика продаж",
+      "company": "Север Трейд",
+      "amount": 830000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-08T16:00:00+03:00",
+      "closed_at": "2026-09-21T17:00:00+03:00",
+      "last_activity_at": "2026-09-21T17:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1068,
+      "name": "Интеграция телефонии",
+      "company": "Альта",
+      "amount": 830000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-09-25T06:00:00+03:00",
+      "closed_at": "2026-09-28T07:00:00+03:00",
+      "last_activity_at": "2026-09-28T07:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1008,
+      "name": "Интеграция телефонии",
+      "company": "Лайтхаус",
+      "amount": 820000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-08-24T10:00:00+03:00",
+      "closed_at": "2026-09-08T11:00:00+03:00",
+      "last_activity_at": "2026-09-08T11:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1055,
+      "name": "CRM для отдела продаж",
+      "company": "Атлас",
+      "amount": 820000,
+      "status": "new",
+      "status_label": "Новая заявка",
+      "manager_id": 101,
+      "created_at": "2026-08-29T17:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-06T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3055,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3155,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1013,
+      "name": "CRM для отдела продаж",
+      "company": "Каскад",
+      "amount": 800000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 101,
+      "created_at": "2026-08-25T07:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-05T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3013,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2007
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1076,
+      "name": "Аналитика продаж",
+      "company": "Нова",
+      "amount": 790000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-10-02T13:00:00+03:00",
+      "closed_at": "2026-10-06T14:00:00+03:00",
+      "last_activity_at": "2026-10-06T14:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1067,
+      "name": "CRM для отдела продаж",
+      "company": "Точка роста",
+      "amount": 780000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-08-18T07:00:00+03:00",
+      "closed_at": "2026-08-30T08:00:00+03:00",
+      "last_activity_at": "2026-08-30T08:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1029,
+      "name": "Поддержка CRM",
+      "company": "Атлас",
+      "amount": 720000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 102,
+      "created_at": "2026-10-10T15:00:00+03:00",
+      "closed_at": "2026-10-11T16:00:00+03:00",
+      "last_activity_at": "2026-10-11T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1066,
+      "name": "Обучение команды",
+      "company": "Форма",
+      "amount": 720000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-09-11T09:00:00+03:00",
+      "closed_at": "2026-10-04T10:00:00+03:00",
+      "last_activity_at": "2026-10-04T10:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1038,
+      "name": "Интеграция телефонии",
+      "company": "Прайм",
+      "amount": 680000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-09-28T17:00:00+03:00",
+      "closed_at": "2026-10-04T18:00:00+03:00",
+      "last_activity_at": "2026-10-04T18:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1069,
+      "name": "Автоматизация воронки",
+      "company": "Ладога",
+      "amount": 650000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 103,
+      "created_at": "2026-09-07T17:00:00+03:00",
+      "closed_at": "2026-09-13T18:00:00+03:00",
+      "last_activity_at": "2026-09-13T18:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1078,
+      "name": "Обучение команды",
+      "company": "Оптима",
+      "amount": 650000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-10-12T12:00:00+03:00",
+      "closed_at": "2026-10-13T13:00:00+03:00",
+      "last_activity_at": "2026-10-13T13:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1049,
+      "name": "CRM для отдела продаж",
+      "company": "Контур",
+      "amount": 630000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 101,
+      "created_at": "2026-10-04T08:00:00+03:00",
+      "closed_at": "2026-10-13T09:00:00+03:00",
+      "last_activity_at": "2026-10-13T09:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1016,
+      "name": "Аналитика продаж",
+      "company": "Альта",
+      "amount": 620000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-04T06:00:00+03:00",
+      "closed_at": "2026-09-24T07:00:00+03:00",
+      "last_activity_at": "2026-09-24T07:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1036,
+      "name": "Обучение команды",
+      "company": "Модуль",
+      "amount": 620000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-09-20T07:00:00+03:00",
+      "closed_at": "2026-10-03T08:00:00+03:00",
+      "last_activity_at": "2026-10-03T08:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1007,
+      "name": "CRM для отдела продаж",
+      "company": "Гринлайн",
+      "amount": 610000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-14T08:00:00+03:00",
+      "closed_at": "2026-10-02T09:00:00+03:00",
+      "last_activity_at": "2026-10-02T09:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1058,
+      "name": "Аналитика продаж",
+      "company": "Вектор",
+      "amount": 610000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-18T09:00:00+03:00",
+      "closed_at": "2026-09-24T10:00:00+03:00",
+      "last_activity_at": "2026-09-24T10:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1014,
+      "name": "Интеграция телефонии",
+      "company": "Форма",
+      "amount": 600000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 102,
+      "created_at": "2026-08-24T08:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-13T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3014,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3114,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2008
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1023,
+      "name": "Поддержка CRM",
+      "company": "Контур",
+      "amount": 600000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 102,
+      "created_at": "2026-09-07T16:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-12T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3023,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3123,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2012
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1054,
+      "name": "Обучение команды",
+      "company": "Север Трейд",
+      "amount": 600000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 103,
+      "created_at": "2026-09-11T12:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-09T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3054,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2028
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1006,
+      "name": "Обучение команды",
+      "company": "Вектор",
+      "amount": 580000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-09-05T14:00:00+03:00",
+      "closed_at": "2026-09-20T15:00:00+03:00",
+      "last_activity_at": "2026-09-20T15:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1057,
+      "name": "Автоматизация воронки",
+      "company": "Неон",
+      "amount": 580000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-08-24T13:00:00+03:00",
+      "closed_at": "2026-08-28T14:00:00+03:00",
+      "last_activity_at": "2026-08-28T14:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1010,
+      "name": "Аналитика продаж",
+      "company": "Модуль",
+      "amount": 570000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 101,
+      "created_at": "2026-10-09T11:00:00+03:00",
+      "closed_at": "2026-10-12T12:00:00+03:00",
+      "last_activity_at": "2026-10-12T12:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1046,
+      "name": "Аналитика продаж",
+      "company": "Техносфера",
+      "amount": 550000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-10T16:00:00+03:00",
+      "closed_at": "2026-09-15T17:00:00+03:00",
+      "last_activity_at": "2026-09-15T17:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1050,
+      "name": "Интеграция телефонии",
+      "company": "Нова",
+      "amount": 530000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 102,
+      "created_at": "2026-09-07T07:00:00+03:00",
+      "closed_at": "2026-10-02T08:00:00+03:00",
+      "last_activity_at": "2026-10-02T08:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1072,
+      "name": "Обучение команды",
+      "company": "Техносфера",
+      "amount": 480000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 103,
+      "created_at": "2026-09-24T17:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-06T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3072,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1064,
+      "name": "Аналитика продаж",
+      "company": "Прайм",
+      "amount": 470000,
+      "status": "demo",
+      "status_label": "Демонстрация",
+      "manager_id": 101,
+      "created_at": "2026-10-08T14:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-10T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3064,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3164,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1009,
+      "name": "Автоматизация воронки",
+      "company": "Бюро 12",
+      "amount": 430000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 103,
+      "created_at": "2026-09-24T16:00:00+03:00",
+      "closed_at": "2026-10-01T17:00:00+03:00",
+      "last_activity_at": "2026-10-01T17:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1039,
+      "name": "Автоматизация воронки",
+      "company": "Каскад",
+      "amount": 430000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 103,
+      "created_at": "2026-09-16T18:00:00+03:00",
+      "closed_at": "2026-09-30T19:00:00+03:00",
+      "last_activity_at": "2026-09-30T19:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1019,
+      "name": "CRM для отдела продаж",
+      "company": "Маяк",
+      "amount": 340000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 101,
+      "created_at": "2026-09-11T06:00:00+03:00",
+      "closed_at": "2026-10-05T07:00:00+03:00",
+      "last_activity_at": "2026-10-05T07:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1027,
+      "name": "Автоматизация воронки",
+      "company": "Орбита",
+      "amount": 330000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-09-26T13:00:00+03:00",
+      "closed_at": "2026-10-01T14:00:00+03:00",
+      "last_activity_at": "2026-10-01T14:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1020,
+      "name": "Интеграция телефонии",
+      "company": "Техносфера",
+      "amount": 320000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 102,
+      "created_at": "2026-10-10T07:00:00+03:00",
+      "closed_at": "2026-10-12T08:00:00+03:00",
+      "last_activity_at": "2026-10-12T08:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1030,
+      "name": "Обучение команды",
+      "company": "Меридиан",
+      "amount": 310000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 103,
+      "created_at": "2026-09-27T15:00:00+03:00",
+      "closed_at": "2026-09-30T16:00:00+03:00",
+      "last_activity_at": "2026-09-30T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1031,
+      "name": "CRM для отдела продаж",
+      "company": "Неон",
+      "amount": 310000,
+      "status": "proposal",
+      "status_label": "Предложение",
+      "manager_id": 101,
+      "created_at": "2026-09-07T09:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-10T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3031,
+          "text": "Согласовать следующий контакт",
+          "complete_till": "2026-10-16T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2015
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1077,
+      "name": "Поддержка CRM",
+      "company": "Платформа",
+      "amount": 310000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-10-02T17:00:00+03:00",
+      "closed_at": "2026-10-06T18:00:00+03:00",
+      "last_activity_at": "2026-10-06T18:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1047,
+      "name": "Поддержка CRM",
+      "company": "Линия",
+      "amount": 300000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-09-10T15:00:00+03:00",
+      "closed_at": "2026-09-12T16:00:00+03:00",
+      "last_activity_at": "2026-09-12T16:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1070,
+      "name": "Аналитика продаж",
+      "company": "Аура",
+      "amount": 280000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 101,
+      "created_at": "2026-08-24T14:00:00+03:00",
+      "closed_at": "2026-09-11T15:00:00+03:00",
+      "last_activity_at": "2026-09-11T15:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1048,
+      "name": "Обучение команды",
+      "company": "Сфера",
+      "amount": 260000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 103,
+      "created_at": "2026-10-01T14:00:00+03:00",
+      "closed_at": "2026-10-13T15:00:00+03:00",
+      "last_activity_at": "2026-10-13T15:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1073,
+      "name": "CRM для отдела продаж",
+      "company": "Линия",
+      "amount": 260000,
+      "status": "qualified",
+      "status_label": "Квалификация",
+      "manager_id": 101,
+      "created_at": "2026-09-11T09:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-03T16:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3073,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3173,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1040,
+      "name": "Аналитика продаж",
+      "company": "Форма",
+      "amount": 210000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 101,
+      "created_at": "2026-10-02T10:00:00+03:00",
+      "closed_at": "2026-10-11T11:00:00+03:00",
+      "last_activity_at": "2026-10-11T11:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1060,
+      "name": "Обучение команды",
+      "company": "Лайтхаус",
+      "amount": 210000,
+      "status": "lost",
+      "status_label": "Закрыта без продажи",
+      "manager_id": 103,
+      "created_at": "2026-08-19T06:00:00+03:00",
+      "closed_at": "2026-08-30T07:00:00+03:00",
+      "last_activity_at": "2026-08-30T07:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1037,
+      "name": "CRM для отдела продаж",
+      "company": "Спектр",
+      "amount": 190000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 101,
+      "created_at": "2026-09-22T10:00:00+03:00",
+      "closed_at": "2026-09-24T11:00:00+03:00",
+      "last_activity_at": "2026-09-24T11:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1056,
+      "name": "Интеграция телефонии",
+      "company": "Меридиан",
+      "amount": 190000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-09-12T11:00:00+03:00",
+      "closed_at": "2026-09-27T12:00:00+03:00",
+      "last_activity_at": "2026-09-27T12:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1026,
+      "name": "Интеграция телефонии",
+      "company": "Оптима",
+      "amount": 180000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-09-12T08:00:00+03:00",
+      "closed_at": "2026-09-20T09:00:00+03:00",
+      "last_activity_at": "2026-09-20T09:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    },
+    {
+      "id": 1032,
+      "name": "Интеграция телефонии",
+      "company": "Вектор",
+      "amount": 140000,
+      "status": "negotiation",
+      "status_label": "Переговоры",
+      "manager_id": 102,
+      "created_at": "2026-08-29T12:00:00+03:00",
+      "closed_at": null,
+      "last_activity_at": "2026-10-13T08:00:00+03:00",
+      "tasks": [
+        {
+          "id": 3032,
+          "text": "Отправить предложение",
+          "complete_till": "2026-10-10T18:00:00+03:00",
+          "is_completed": true,
+          "entity_type": "leads"
+        },
+        {
+          "id": 3132,
+          "text": "Провести демо",
+          "complete_till": "2026-10-15T18:00:00+03:00",
+          "is_completed": false,
+          "entity_type": "leads"
+        }
+      ],
+      "call_ids": [
+        2016
+      ],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Следующее действие запланировано"
+    },
+    {
+      "id": 1017,
+      "name": "Поддержка CRM",
+      "company": "Ладога",
+      "amount": 120000,
+      "status": "won",
+      "status_label": "Успешно реализована",
+      "manager_id": 102,
+      "created_at": "2026-10-04T18:00:00+03:00",
+      "closed_at": "2026-10-07T19:00:00+03:00",
+      "last_activity_at": "2026-10-07T19:00:00+03:00",
+      "tasks": [],
+      "call_ids": [],
+      "crm_url": null,
+      "issues": [],
+      "recommendation": "Сделка закрыта"
+    }
+  ],
+  "calls": [
+    {
+      "id": 2001,
+      "deal_id": 1002,
+      "manager_id": 102,
+      "company": "Север Трейд",
+      "occurred_at": "2026-10-14T15:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "incoming",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "good",
+      "next_step": "Отправить предложение",
+      "followup_gap": false,
+      "objections": [
+        "Цена"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        }
+      ],
+      "summary": "Клиент обсуждает интеграция телефонии. Следующий шаг: отправить предложение."
+    },
+    {
+      "id": 2016,
+      "deal_id": 1032,
+      "manager_id": 102,
+      "company": "Вектор",
+      "occurred_at": "2026-10-13T08:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "incoming",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам подходит. Давайте проведём демо в четверг в 11:00."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "good",
+      "next_step": "Провести демо",
+      "followup_gap": false,
+      "objections": [],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам подходит. Давайте проведём демо в четверг в 11:00."
+        }
+      ],
+      "summary": "Клиент обсуждает интеграция телефонии. Следующий шаг: провести демо."
+    },
+    {
+      "id": 2009,
+      "deal_id": 1015,
+      "manager_id": 103,
+      "company": "Точка роста",
+      "occurred_at": "2026-10-11T15:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Отправить предложение",
+      "followup_gap": true,
+      "objections": [
+        "Цена"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: отправить предложение."
+    },
+    {
+      "id": 2024,
+      "deal_id": 1045,
+      "manager_id": 103,
+      "company": "Маяк",
+      "occurred_at": "2026-10-10T08:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам подходит. Давайте проведём демо в четверг в 11:00."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Провести демо",
+      "followup_gap": true,
+      "objections": [],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам подходит. Давайте проведём демо в четверг в 11:00."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: провести демо."
+    },
+    {
+      "id": 2002,
+      "deal_id": 1003,
+      "manager_id": 103,
+      "company": "Атлас",
+      "occurred_at": "2026-10-09T14:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Подготовить расчёт",
+      "followup_gap": true,
+      "objections": [
+        "Срок внедрения"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: подготовить расчёт."
+    },
+    {
+      "id": 2017,
+      "deal_id": 1033,
+      "manager_id": 103,
+      "company": "Гринлайн",
+      "occurred_at": "2026-10-08T15:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Отправить предложение",
+      "followup_gap": true,
+      "objections": [
+        "Цена"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: отправить предложение."
+    },
+    {
+      "id": 2010,
+      "deal_id": 1021,
+      "manager_id": 103,
+      "company": "Линия",
+      "occurred_at": "2026-10-06T14:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "incoming",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Подготовить расчёт",
+      "followup_gap": true,
+      "objections": [
+        "Срок внедрения"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: подготовить расчёт."
+    },
+    {
+      "id": 2025,
+      "deal_id": 1051,
+      "manager_id": 103,
+      "company": "Платформа",
+      "occurred_at": "2026-10-05T15:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "incoming",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Отправить предложение",
+      "followup_gap": true,
+      "objections": [
+        "Цена"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Цена выше нашего бюджета. Пришлите предложение завтра до обеда."
+        }
+      ],
+      "summary": "Клиент обсуждает автоматизация воронки. Следующий шаг: отправить предложение."
+    },
+    {
+      "id": 2003,
+      "deal_id": 1004,
+      "manager_id": 101,
+      "company": "Меридиан",
+      "occurred_at": "2026-10-04T13:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Я покажу руководителю. Пришлите договор, чтобы согласовать условия."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Согласовать договор",
+      "followup_gap": true,
+      "objections": [
+        "Согласование с руководителем"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Я покажу руководителю. Пришлите договор, чтобы согласовать условия."
+        }
+      ],
+      "summary": "Клиент обсуждает аналитика продаж. Следующий шаг: согласовать договор."
+    },
+    {
+      "id": 2018,
+      "deal_id": 1034,
+      "manager_id": 101,
+      "company": "Лайтхаус",
+      "occurred_at": "2026-10-03T14:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Подготовить расчёт",
+      "followup_gap": true,
+      "objections": [
+        "Срок внедрения"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Нам важно уложиться в две недели. Подготовьте расчёт к пятнице."
+        }
+      ],
+      "summary": "Клиент обсуждает аналитика продаж. Следующий шаг: подготовить расчёт."
+    },
+    {
+      "id": 2011,
+      "deal_id": 1022,
+      "manager_id": 101,
+      "company": "Сфера",
+      "occurred_at": "2026-10-01T13:00:00+03:00",
+      "duration_seconds": 84,
+      "direction": "outgoing",
+      "transcript": [
+        {
+          "start": 0,
+          "end": 14,
+          "speaker": "Менеджер",
+          "text": "Добрый день! Обсудим внедрение и следующий шаг по вашему проекту."
+        },
+        {
+          "start": 15,
+          "end": 34,
+          "speaker": "Клиент",
+          "text": "Команда растёт, хотим видеть все обращения и договорённости в одной CRM."
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Я покажу руководителю. Пришлите договор, чтобы согласовать условия."
+        },
+        {
+          "start": 49,
+          "end": 68,
+          "speaker": "Менеджер",
+          "text": "Договорились, я подготовлю материалы и свяжусь с вами."
+        },
+        {
+          "start": 69,
+          "end": 84,
+          "speaker": "Клиент",
+          "text": "Спасибо, будем ждать. До свидания!"
+        }
+      ],
+      "audio_url": null,
+      "analysis_mode": "demo_rules",
+      "synthetic": true,
+      "quality": "attention",
+      "next_step": "Согласовать договор",
+      "followup_gap": true,
+      "objections": [
+        "Согласование с руководителем"
+      ],
+      "evidence": [
+        {
+          "start": 35,
+          "end": 48,
+          "speaker": "Клиент",
+          "text": "Я покажу руководителю. Пришлите договор, чтобы согласовать условия."
+        }
+      ],
+      "summary": "Клиент обсуждает аналитика продаж. Следующий шаг: согласовать договор."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "next-actions",
+      "priority": "high",
+      "title": "Назначить следующие действия",
+      "description": "Открытые сделки без незавершённых задач. Подтвердите контакт с клиентом и назначьте срок.",
+      "deal_ids": [
+        1001,
+        1015,
+        1024,
+        1033,
+        1042,
+        1051,
+        1065,
+        1074
+      ],
+      "call_ids": [],
+      "requires_approval": true
+    },
+    {
+      "id": "overdue",
+      "priority": "high",
+      "title": "Разобрать просроченные задачи",
+      "description": "Проверьте фактическое выполнение и причины задержки, затем согласуйте новый срок.",
+      "deal_ids": [
+        1002,
+        1003,
+        1011,
+        1012,
+        1021,
+        1025,
+        1034,
+        1035,
+        1043,
+        1044,
+        1052,
+        1053,
+        1061,
+        1062,
+        1071,
+        1075
+      ],
+      "call_ids": [],
+      "requires_approval": true
+    },
+    {
+      "id": "promises",
+      "priority": "medium",
+      "title": "Сверить договорённости со звонков",
+      "description": "Для обещанного действия не найдена задача с совпадающим ключевым словом. Это повод для проверки руководителем.",
+      "deal_ids": [
+        1003,
+        1004,
+        1015,
+        1021,
+        1022,
+        1033,
+        1034,
+        1045,
+        1051
+      ],
+      "call_ids": [
+        2009,
+        2024,
+        2002,
+        2017,
+        2010,
+        2025,
+        2003,
+        2018,
+        2011
+      ],
+      "requires_approval": true
+    },
+    {
+      "id": "stale",
+      "priority": "medium",
+      "title": "Вернуть в работу зависшие сделки",
+      "description": "Зафиксированная активность по сделке старше 14 дней. Уточните актуальность проекта.",
+      "deal_ids": [
+        1001,
+        1005,
+        1012,
+        1035,
+        1041,
+        1044,
+        1062,
+        1063,
+        1075
+      ],
+      "call_ids": [],
+      "requires_approval": true
+    }
+  ],
+  "summary": "За 14 дней создано 17 сделок, успешно закрыто 11 из 21 закрытых (52.4%). Сумма выигранных сделок — 5 920 000 ₽. В текущем портфеле 40 открытых сделок: 8 без активных задач, 16 с просроченными. Из 11 звонков за период 9 требуют сверки договорённостей с CRM. Рекомендации требуют проверки руководителем."
+}
